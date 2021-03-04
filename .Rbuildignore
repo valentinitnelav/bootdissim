@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.gitignore$
+^\.git$
+^\.RData$
+^\.RData
+^ignore$
+^docs$
+^_site\.yml$
+^.*\.md$
+^.*\.Rmd$
+^ignore$

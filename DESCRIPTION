@@ -1,0 +1,39 @@
+Package: bootdissim
+Version: 0.1.0
+Title: Bootstrap Network Dissimilarity
+Description: Bootstrap dissimilarity metrics between ecological networks.
+Authors@R: c(
+    person(given = "Valentin",
+           family = "Stefan",
+           role = c("aut", "cre"),
+           email = "valentin.stefan@idiv.de"),
+    person(given = "Tiffany",
+           family = "Knight",
+           role = c("aut"),
+           email = "tiffany.knight@idiv.de")
+    )
+Maintainer: Valentin Stefan <valentin.stefan@ufz.de>
+License: MIT + file LICENSE
+BugReports: https://github.com/valentinitnelav/bootdissim/issues
+Depends:
+    R (>= 4.0)
+Imports:
+    bipartite (>= 2.16),
+    matrixStats (>= 0.58.0),
+    magrittr (>= 2.0.1),
+    data.table (>= 1.13.6),
+    dplyr (>= 1.0.4),
+    tibble (>= 3.0.6),
+    ggplot2 (>= 3.3.3),
+    doParallel (>= 1.0.16),
+    foreach (>= 1.5.1),
+    iterators (>= 1.0.13),
+    parallel,
+    methods
+Suggests: 
+    devtools,
+    testthat
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
