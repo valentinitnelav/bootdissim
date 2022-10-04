@@ -1,5 +1,7 @@
 # bootdissim
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7145381.svg)](https://doi.org/10.5281/zenodo.7145381)
+
 ## Overview
 
 R package for building turnover saturation (rarefaction or accumulation) curves via bootstrapping. It offers a workflow to bootstrap dissimilarity metrics between ecological networks.
@@ -63,3 +65,7 @@ ggsave(p, filename = "./man/cache/readme-example-1.png",
 -->
 
 ![](man/cache/readme-example-1.png)
+
+# How to cite the package?
+
+> Valentin Ștefan, & Tiffany Marie Knight. (2021). bootdissim: R package for building turnover saturation curves via bootstrapping (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7145381
